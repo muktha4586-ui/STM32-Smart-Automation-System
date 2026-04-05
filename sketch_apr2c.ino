@@ -11,7 +11,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 // DHT sensor
 #define DHTPIN PA1
 #define DHTTYPE DHT11
-DHT dht(DHTPIN, DHTTYPE);
+DHT dht(DHTPIN, DHTTYPE); 789
 
 // Pins
 #define PIR_PIN PA0
